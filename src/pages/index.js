@@ -18,7 +18,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            Menuju Tutorial
           </Link>
         </div>
       </div>
@@ -30,8 +30,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`${siteConfig.title} Homepage`}
+      description="Di Sempoa, kami percaya bahwa semua proses akuntansi perusahaan dapat dilakukan dengan mudah dan mendetil, sehingga memberikan gambaran posisi keuangan yang akurat dan terpercaya!">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

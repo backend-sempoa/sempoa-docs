@@ -12,12 +12,12 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-sempoa.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'backend-sempoa', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'sempoa-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/backend-sempoa/sempoa-docs',
+            'https://github.com/backend-sempoa/sempoa-docs/blob/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/backend-sempoa/sempoa-docs',
+            'https://github.com/backend-sempoa/sempoa-docs/blob/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Sempoa',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Sempoa Logo',
+          src: 'img/favicon-sempoa.ico',
         },
         items: [
           {
@@ -71,8 +71,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=navbar',
+            label: 'Coba Sempoa',
             position: 'right',
           },
         ],
@@ -114,13 +114,17 @@ const config = {
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Coba Sempoa',
+                href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=footer',
+              },
+              {
+                label: 'Hubungi Kami',
+                to: 'mailto:info@sempoa.id',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} All Rights Reserved. PT Sempoa Prima Teknologi. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
