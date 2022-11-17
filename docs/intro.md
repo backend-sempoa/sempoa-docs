@@ -2,46 +2,53 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Pendahuluan
+ ## SEMPOA ERP
+**Dibuat oleh dan untuk Keuangan**
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Sempoa ERP dibuat untuk dapat mencatat semua transaksi keuangan perusahaan dengan berbagai kerumitan dan kemungkinan yang bisa terjadi.
 
-## Getting Started
 
-Get started by **creating a new site**.
+**Dirancang untuk Integrasi**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Berbagai ragam sistem IT yang digunakan perusahaan saat ini. Sempoa ERP dibuat agar dapat dengan mudah terhubungkan dengan sistem IT yang digunakan perusahaan.
 
-### What you'll need
+## Fitur - Fitur
+Berikut fitur yang dapat Anda gunakan dalam aplikasi **SEMPOA ERP**.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### COA
+Chart Of Account penomoran kode akun yang sistematis mendukung pemasukan data transaksi yang akurat.
 
-## Generate a new site
+### Invoice
+Pembuatan tagihan kepada pelanggan yang dapat dicetak atau dikirimkan melalui email.
+    
+### Cash & Bank
+Pencatatan kejadian pemasukan dan pengeluaran uang pada kas perusahaan dan rekening bank.
 
-Generate a new Docusaurus site using the **classic template**.
+### Account Receivable
+Pencatatan piutang dagang untuk semua transaksi yang bersifat accrual.
 
-The classic template will automatically be added to your project after you run the command:
+### Account Payable
+Pencatatan hutang dagang perusahaan kepada pemasok barang atau penyedia layanan.
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+### General Ledger
+Jurnal Umum adalah catatan lengkap dari semua transaksi keuangan bisnis perusahaan.
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### Income Statement
+Laporan laba rugi untuk melihat perkembangan usaha perusahaan pada suatu masa.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+### Trial Balance
+Neraca Percobaan menampilkan saldo pada buku besar perusahaan per suatu masa tertentu.
 
-## Start your site
+### Manajemen Inventori
+Membantu Anda dalam pencatatan jumlah persediaan dan keluar masuk barang.
 
-Run the development server:
+### Multi lokasi Gudang
+Terhubung dengan modul Inventori Anda dapat mempersiapkan jumlah persediaan diberbagai lokasi penyimpanan sehingga akan tercatat secara otomasi di dalam sistem.
 
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## Registrasi
+Untuk melakukan registrasi pada aplikasi [SEMPOA ERP](https://demo.sempoa.id)
+  - Anda dapat menguhubungi konsultan kami agar kami dapat memastikan dan menganalisa kebutuhan perusahaan     atau organisasi Anda dalam pengimplementasian sistem **SEMPOA ERP**.
+  
+  - Email : info@sempoa.id
+  - Phone : 081234567890
