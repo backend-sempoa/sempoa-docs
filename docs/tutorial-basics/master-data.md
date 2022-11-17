@@ -67,143 +67,79 @@ klik icon document untuk membuat **Invoice Penjualan** dan **Invoice Pembelian**
 
 :::
 
+## Master Akun
 
+Merupakan daftar-daftar **Chart of account** yang dapat Anda gunakan dalam membuat laporan - laporan akuntansi dan keuangan. Data Master Akun dapat anda sesuaikan dengan kebutuhan organisasi anda saat pertama kali melakukan onboarding data pada sistem SEMPOA ERP.
 
-<!-- # Master Data
+:::tip Baca Juga :
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+[Onboarding & Setup Awal](http://localhost:3000/docs/tutorial-basics/onboarding-setup-awal). 
 
-## Front Matter
-
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
-
-```text title="my-doc.md"
-// highlight-start
----
-id: my-doc-id
-title: My document title
-description: My document description
-slug: /my-custom-url
----
-// highlight-end
-
-## Markdown heading
-
-Markdown text with [links](./hello.md)
-```
-
-## Links
-
-Regular Markdown links are supported, using url paths or relative file paths.
-
-```md
-Let's see how to [Create a page](/create-a-page).
-```
-
-```md
-Let's see how to [Create a page](./create-a-page.md).
-```
-
-**Result:** Let's see how to [Create a page](./create-a-page.md).
-
-## Images
-
-Regular Markdown images are supported.
-
-You can use absolute paths to reference images in the static directory (`static/img/docusaurus.png`):
-
-```md
-![Docusaurus logo](/img/docusaurus.png)
-```
-
-![Docusaurus logo](/img/docusaurus.png)
-
-You can reference images relative to the current file as well, as shown in [the extra guides](../tutorial-extras/manage-docs-versions.md).
-
-## Code Blocks
-
-Markdown code blocks are supported with Syntax highlighting.
-
-    ```jsx title="src/components/HelloDocusaurus.js"
-    function HelloDocusaurus() {
-        return (
-            <h1>Hello, Docusaurus!</h1>
-        )
-    }
-    ```
-
-```jsx title="src/components/HelloDocusaurus.js"
-function HelloDocusaurus() {
-  return <h1>Hello, Docusaurus!</h1>;
-}
-```
-
-## Admonitions
-
-Docusaurus has a special syntax to create admonitions and callouts:
-
-    :::tip My tip
-
-    Use this awesome feature option
-
-    :::
-
-    :::danger Take care
-
-    This action is dangerous
-
-    :::
-
-
-
-:::danger Take care
-
-This action is dangerous
 
 :::
 
-## MDX and React Components
+Data Master Akun selain dapat dilakukan melalui migrasi data, juga dapat diinputkan secara manual.
 
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+**Data Master -> Akun**.
 
-```jsx
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`)
-    }}>
-    {children}
-  </span>
-);
+![Docusaurus logo](/img/menu-master-akun.PNG)
 
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+Pada halaman Akun, klik tombol **"Tambah Akun"**
 
-This is <Highlight color="#1877F2">Facebook blue</Highlight> !
-```
+![Docusaurus logo](/img/dt-akun.PNG)
 
-export const Highlight = ({children, color}) => (
-  <span
-    style={{
-      backgroundColor: color,
-      borderRadius: '20px',
-      color: '#fff',
-      padding: '10px',
-      cursor: 'pointer',
-    }}
-    onClick={() => {
-      alert(`You clicked the color ${color} with label ${children}`);
-    }}>
-    {children}
-  </span>
-);
+![Docusaurus logo](/img/form-akun.PNG)
 
-This is <Highlight color="#25c2a0">Docusaurus green</Highlight> !
+Jika pembuatan Akun anda gagal maka sistem akan mengeluarkan pesan kesalahan pada kolom. Mohon diperhatikan kolom kolom yang wajib di isi.
 
-This is <Highlight color="#1877F2">Facebook blue</Highlight> ! -->
+:::danger PERHATIAN
+- Tipe Akun - Wajib di isi.
+- Level - Wajib di isi.
+- Nama Akun - Wajib di isi.
+- Kode Akun - Wajib di isi.
+- Saldo - Wajib di isi.
+- Bulan Saldo - Wajib di isi.
+:::
+
+## Master Produk
+Kumpulan data produk atau jasa yang menjadi objek jual beli dan atau jasa yang diberikan untuk setiap transaksi. Di dalam master produk Anda dapat mengindentifikasi setiap barang atau jasa berdasarkan **SKU (Stock Keeping Unit)** untuk setiap objek transaksi.
+
+**Data Master -> Produk**
+
+![Docusaurus logo](/img/menu-produk.PNG)
+
+Pada halaman datatable Produk, klik tombol **"Tambah Produk"**
+
+![Docusaurus logo](/img/dt-produk.PNG)
+
+Silahkan mengisi data pada form untuk menambahkan produk dengan memperhatikan kolom-kolom yang wajib di isi.
+
+![Docusaurus logo](/img/form-produk.PNG)
+
+:::danger PERHATIAN
+- Nama Produk - Wajib di isi.
+- Kategori - Wajib di isi.
+- SKU - Wajib di isi.
+- Harga - Wajib di isi.
+- Tipe - Wajib di isi.
+:::
+
+### Kategori Barang
+Kategori dapat Anda sesuaikan dengan produk yang ingin diinputkan, sistem telah menyedian beberapa kategori barang yang dapat Anda pilih, akan tetapi Anda dapat membuat kategori tersendiri sesuai dengan kebutuhan Anda.
+
+![Docusaurus logo](/img/list-kategori.PNG)
+
+Pada halaman form tambah produk klik **"Tambahkan Kategori Baru"**.
+![Docusaurus logo](/img/btn-add-cat.PNG)
+
+Silahkan isi kategori baru yang ingin Anda tambahkan.
+
+![Docusaurus logo](/img/input-new-cat.PNG)
+### Tipe
+Menentukan jenis suatu objek transaksi yang bersifat produk atau jasa yang dimana setiap objek memiliki dampak dalam meyusun laporan pajak, dimana SEMPOA ERP menerapkan pajak 11% pada sistem sesuai dengan peraturan perundang-undangan yang berlaku. 
+
+![Docusaurus logo](/img/tipe-jasa-barang.PNG)
+
+:::tip PERHATIAN
+Berdasarkan dasar hukum PPN yang tertuang dalam UU No.42 Tahun 2009 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan Atas Barang Mewah. Kemudian, dasar hukum terbaru PPN tertuang di dalam peraturan perundang-undangan perpajakan, yakni dalam UU No.7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (HPP).
+:::
