@@ -136,7 +136,7 @@ Silahkan isi kategori baru yang ingin Anda tambahkan.
 
 ![Docusaurus logo](/img/input-new-cat.PNG)
 ### Tipe
-Menentukan jenis suatu objek transaksi yang bersifat produk atau jasa yang dimana setiap objek memiliki dampak dalam meyusun laporan pajak, dimana SEMPOA ERP menerapkan pajak 11% pada sistem sesuai dengan peraturan perundang-undangan yang berlaku. 
+Menentukan jenis suatu objek transaksi yang bersifat produk atau jasa yang dimana setiap objek memiliki dampak dalam meyusun laporan pajak, **SEMPOA ERP** menerapkan pajak 11% pada sistem sesuai dengan peraturan perundang-undangan yang berlaku. 
 
 ![Docusaurus logo](/img/tipe-jasa-barang.PNG)
 
