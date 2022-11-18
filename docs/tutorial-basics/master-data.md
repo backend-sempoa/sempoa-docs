@@ -17,16 +17,16 @@ Master Mitra adalah sub-moodule di mana Anda dapat menambahkan suatu entitas yan
 
 Masuk pada menu **Master Data -> Mitra**
 
-![Docusaurus logo](/img/menu-master-data.PNG)
+![Menu master data mitra](/img/menu-master-data.PNG)
 
 - Pada halamanan datatable tekan tombol **Tambah Mitra**
-![Docusaurus logo](/img/dt-mitra.PNG)
+![Halaman data mitra](/img/dt-mitra.PNG)
 
 - Silahkan isi form mitra dengan memperhatihkan kolom-kolom yang wajib diisi.
-![Docusaurus logo](/img/form-add-mitra.PNG)
+![form tambah data mitra](/img/form-add-mitra.PNG)
 
 - Form akan memberikan pesan pada kolom yang wajib diisi.
-![Docusaurus logo](/img/mitra-required-form.PNG)
+![Notifikasi error input data mitra](/img/mitra-required-form.PNG)
 
 :::danger PERHATIAN
 - Nama Mitra - Wajib diisi.
@@ -41,24 +41,24 @@ Masuk pada menu **Master Data -> Mitra**
 
 Saat memilih **Tipe Mitra** sebagai **Pemasok (Supplier)**. Anda akan memilih **Chart of Account** yang ingin Anda definisikan sebagai **Akun Hutang** untuk Mitra tersebut.  
 
-![Docusaurus logo](/img/tipe-supplier.PNG)
+![Tipe akun hutang](/img/tipe-supplier.PNG)
 
 
 ### Pelanggan
 
 Saat memilih **Tipe Mitra** sebagai **Pelanggan (Customers)**. Anda akan memilih **Chart of Account** yang ingin Anda definisikan sebagai **Akun Piutang** untuk Mitra tersebut.   
-![Docusaurus logo](/img/tipe-pelanggan.PNG)
+![Tipe akun piutang](/img/tipe-pelanggan.PNG)
 
 
 ### Keduanya
 
 Jika Anda ingin mengindentifikasikan suatu entitas mitra memiliki **Tipe Mitra** sebagai **Pemasok (Supplier)** sekaligus **Pelanggan (Customers)**, maka Anda cukup memilih **Chart Of Account** mana saja yang di definisikan sebagai **Akun Hutang** dan **Akun Piutang** untuk Mitra tersebut.
 
-![Docusaurus logo](/img/tipe-keduanya.PNG)
+![Tipe akun hutang dan piutang](/img/tipe-keduanya.PNG)
 
 - Jika pembuatan entitas mitra berhasil maka data mitra anda akan muncul pada baris datatable di menu mitra.
 
-![Docusaurus logo](/img/dt-mitra-1.PNG)
+![Halaman data mitra](/img/dt-mitra-1.PNG)
 
 :::tip Tips
 
@@ -72,7 +72,7 @@ Merupakan daftar-daftar **Chart of account** yang dapat Anda gunakan dalam membu
 
 :::tip Baca Juga :
 
-[Onboarding & Setup Awal](http://localhost:3000/docs/tutorial-basics/onboarding-setup-awal). 
+[Onboarding & Setup Awal](/docs/tutorial-basics/onboarding-setup-awal). 
 
 
 :::
@@ -81,13 +81,13 @@ Data Master Akun selain dapat dilakukan melalui migrasi data, juga dapat diinput
 
 **Data Master -> Akun**.
 
-![Docusaurus logo](/img/menu-master-akun.PNG)
+![Menu data master akun](/img/menu-master-akun.PNG)
 
 Pada halaman Akun, klik tombol **"Tambah Akun"**
 
-![Docusaurus logo](/img/dt-akun.PNG)
+![Halaman data master akun](/img/dt-akun.PNG)
 
-![Docusaurus logo](/img/form-akun.PNG)
+![form input data akun](/img/form-akun.PNG)
 
 Jika pembuatan Akun anda gagal maka sistem akan mengeluarkan pesan kesalahan pada kolom. Mohon diperhatikan kolom kolom yang wajib diisi.
 
@@ -105,15 +105,15 @@ Kumpulan data produk atau jasa yang menjadi objek jual beli dan atau jasa yang d
 
 **Data Master -> Produk**
 
-![Docusaurus logo](/img/menu-produk.PNG)
+![Menu data master produk](/img/menu-produk.PNG)
 
 Pada halaman datatable Produk, klik tombol **"Tambah Produk"**
 
-![Docusaurus logo](/img/dt-produk.PNG)
+![Halaman data master produk](/img/dt-produk.PNG)
 
 Silahkan mengisi data pada form untuk menambahkan produk dengan memperhatikan kolom-kolom yang wajib diisi.
 
-![Docusaurus logo](/img/form-produk.PNG)
+![Form tambah data produk](/img/form-produk.PNG)
 
 :::danger PERHATIAN
 - Nama Produk - Wajib diisi.
@@ -126,18 +126,18 @@ Silahkan mengisi data pada form untuk menambahkan produk dengan memperhatikan ko
 ### Kategori Barang
 Kategori dapat Anda sesuaikan dengan produk yang ingin diinputkan, sistem telah menyedian beberapa kategori barang yang dapat Anda pilih, akan tetapi Anda dapat membuat kategori tersendiri sesuai dengan kebutuhan Anda.
 
-![Docusaurus logo](/img/list-kategori.PNG)
+![Form tambah data produk](/img/list-kategori.PNG)
 
 Pada halaman form tambah produk klik **"Tambahkan Kategori Baru"**.
-![Docusaurus logo](/img/btn-add-cat.PNG)
+![Tombol tambah kategori](/img/btn-add-cat.PNG)
 
 Silahkan isi kategori baru yang ingin Anda tambahkan.
 
-![Docusaurus logo](/img/input-new-cat.PNG)
+![Form tambah data kategori](/img/input-new-cat.PNG)
 ### Tipe
 Menentukan jenis suatu objek transaksi yang bersifat produk atau jasa yang dimana setiap objek memiliki dampak dalam meyusun laporan pajak, **SEMPOA ERP** menerapkan pajak 11% pada sistem sesuai dengan peraturan perundang-undangan yang berlaku. 
 
-![Docusaurus logo](/img/tipe-jasa-barang.PNG)
+![Tipe produk](/img/tipe-jasa-barang.PNG)
 
 :::tip PERHATIAN
 Berdasarkan dasar hukum PPN yang tertuang dalam UU No.42 Tahun 2009 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan Atas Barang Mewah. Kemudian, dasar hukum terbaru PPN tertuang di dalam peraturan perundang-undangan perpajakan, yakni dalam UU No.7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (HPP).

@@ -47,10 +47,10 @@ Perlu diingat hanya pengguna yang berperan sebagai **Company Admin** yang diperb
 
 - Masuk ke menu **Administrasi -> Pengguna**.
 
-![Docusaurus logo](/img/pengguna-menu.PNG)
+![Menu administrasi pengguna](/img/pengguna-menu.PNG)
 
 - Pada halaman datatable klik tombol **Buat Pengguna**.
-![Docusaurus logo](/img/dt-pengguna.PNG)
+![DHalaman data pengguna](/img/dt-pengguna.PNG)
 
 - Isi Form pengguna baru dalam organisasi Anda, dimana terdapat kolom kolom yang wajib diisi.
 
@@ -61,30 +61,30 @@ Perlu diingat hanya pengguna yang berperan sebagai **Company Admin** yang diperb
 - Peran - Wajib diisi.
 
 :::
-![Docusaurus logo](/img/form-buat-pengguna.PNG)
+![Halaman input data pengguna](/img/form-buat-pengguna.PNG)
 
 - Jika Anda gagal dalam pengisian data pengguna baru maka sistem akan memberi pesan error pada kolom yang salah atau wajib diisi. Namun di sisi lain jika Anda berhasil menambahkan pengguna baru maka status pengguna baru belum aktif.
 
 - Aktifkan status pengguna baru agar dapat diverifikasi oleh sistem. 
 - Klik nama pengguna yang berstatus belum aktif.
 
-![Docusaurus logo](/img/non-aktiv-pertama.PNG)
+![Contoh pengguna belum aktif](/img/non-aktiv-pertama.PNG)
 
 - Pastikan data pengguna baru sudah benar sebelum Anda menekan tombol "Aktifkan"
 
-![Docusaurus logo](/img/aktifkan-pengguna.PNG)
+![Detail data pengguna](/img/aktifkan-pengguna.PNG)
 
 - Anda akan mengkonfirmasi untuk mengaktifkan pengguna baru.
 
-![Docusaurus logo](/img/confrim-aktif.PNG)
+![Dialog konfirmasi aktivasi pengguna](/img/confrim-aktif.PNG)
 
 - Setelah terkonfirmasi aktif, maka pengguna yang sudah didaftarkan akan mendapatkan email konfirmasi yang harus segera dikonfirmasi. **Email verifikasi berlaku 24 jam**.
 
-![Docusaurus logo](/img/confrim-user.PNG)
+![Email aktivasi pengguna](/img/confrim-user.PNG)
 
 - Pada email verifikasi pengguna baru, terdapat tombol **"Confrim Account"**, pengguna baru akan dialihkan untuk dapat membuat password yang dapat dipakai untuk login kedalam sistem **SEMPOA ERP**.
 
-![Docusaurus logo](/img/setNewPassword.jpeg)
+![Form set password](/img/setNewPassword.jpeg)
 
 - Setalah selesai melakukan pengisian password, pengguna baru akan dialihkan masuk ke dalam **Dashboard SEMPOA ERP** sesuai peran pengguna yang sudah ditetapkan oleh **Company Admin**.
 
@@ -95,7 +95,7 @@ Hanya peran **Company Admin** yang dapat melakukan perubahan data terhadap pengg
 
 - Masuk ke menu **Administrasi -> Pengguna**.
 
-![Docusaurus logo](/img/pengguna-menu.PNG)
+![Menu administrasi pengguna](/img/pengguna-menu.PNG)
 
 - Pada halaman datatable tertampil data-data pengguna dalam organisasi Anda, untuk melakukan perubahan data pada entitas pengguna, **Company Admin** hanya dapat melakukan beberapa perubahan seperti :
 
@@ -105,11 +105,11 @@ Hanya peran **Company Admin** yang dapat melakukan perubahan data terhadap pengg
 
 Untuk melakukan perubahan data biodata ataupun peran pengguna, **Company Admin** cukup menekan nama pengguna yang dituju.
 
-![Docusaurus logo](/img/dt-pengguna.PNG)
+![Halaman data pengguna](/img/dt-pengguna.PNG)
 
 Lakukan perubahan sesuai data yang diinginkan.
 
-![Docusaurus logo](/img/aktifkan-pengguna.PNG)
+![Detail data pengguna](/img/aktifkan-pengguna.PNG)
 
 Jika perubahan data berhasil maka sistem akan menampilkan pesan **"Data berhasil disimpan"**, namun jika terdapat kesalahan, maka sistem akan menampilkan pesan error pada kolom pengisian data.
 
