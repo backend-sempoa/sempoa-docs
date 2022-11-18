@@ -131,28 +131,128 @@ Invoice adalah sebuah dokumen yang tertulis dan digunakan sebagai suatu bukti pe
 ### Invoice Penjualan
 **Menu Transaksi -> Invoice -> Invoice Penjualan**
 
-Terdapat 3 status dalam Invocing untuk mengetahui prosess disetiap Invocing baik Penjualan ataupun Pembelian yaitu :
+Terdapat 4 status dalam Invocing untuk mengetahui prosess disetiap Invocing Penjualan yaitu :
+
+- **Outstanding :** Status Invoice belum dibayarkan.
+- **Overdue :** Status Invoice melewati masa termin pembayaran.
+- **Paid :** Status Invoice sudah lunas.
+- **Partial Payment :** Status Invoice yang sudah mendapatkan uang muka.
+
+![Docusaurus logo](/img/dt-inv-penjualan.PNG)
+![Docusaurus logo](/img/inv-jual-7.PNG)
+
+# Buat Invoice Penjualan
+Pada halaman datatable **Invoice Penjualan** klik **Buat Invoice Penjualan**
+
+Mohon memperhatikan kolom-kolom yang wajib di isi saat melakukan pembuatan Invoice Penjualan. Sistem akan memberikan pesan pada kolom pengisian jika nilai yang diinputkan tidak sesuai.
+
+![Docusaurus logo](/img/inv-jual-1.PNG)
+
+:::danger PERHATIAN
+- Mitra - Wajib diisi.
+- Tanggal Invoice - Wajib diisi.
+- Nomor Invoice - Wajib diisi (*Auto Generate*).
+- Deskripsi Penjualan - Wajib diisi.
+- Termin Pembayaran - Wajib diisi.
+- Quantity Produk - Wajib diisi.
+- Jatuh Tempo - Wajib diisi (*Auto Generate dari Termin*).
+:::    
+
+Pada **Baris Invoice** Anda dapat menambahkan atau mengurangi **Item Produk** yang ingin diprosess sebagai **Invoice Penjualan** beserta **harga barang** serta **quantity produk**.
+
+![Docusaurus logo](/img/inv-jual-3.PNG)
+
+**Harga Barang** pada **Item Produk** secara otomatis diambil dari data **Master Produk**, namun Anda masih dapat melakukan perubahan harga sewaktu diperlukan saat pembuatan **Invoice Penjualan**.
+
+![Docusaurus logo](/img/inv-jual-2.PNG)
+
+Saat membuat **Invoice Penjualan** Anda juga dapat menambahkan **Diskon atau Uang Muka** ataupun sekaligus menambahkan keduanya **(Diskon & Uang Muka)** untuk satu **Invoice Penjualan** yang akan di prosess.
+
+Nilai saat pengisian **Diskon dan Uang Muka** akan secara otomatis terkalkulasi oleh sistem berserta dengan nilai pajak yang sudah ditentukan sebesar 11% berdasarkan undang-undang yang berlaku.
+
+:::tip PERHATIAN
+Berdasarkan dasar hukum PPN yang tertuang dalam UU No.42 Tahun 2009 tentang Pajak Pertambahan Nilai Barang dan Jasa dan Pajak Penjualan Atas Barang Mewah. Kemudian, dasar hukum terbaru PPN tertuang di dalam peraturan perundang-undangan perpajakan, yakni dalam UU No.7 Tahun 2021 tentang Harmonisasi Peraturan Perpajakan (HPP).
+:::
+![Docusaurus logo](/img/inv-jual-6.PNG)
+
+Setelah Anda memastikan data pada **Invoice Penjualan** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
+
+![Docusaurus logo](/img/btn-inv-confrim.PNG)
+
+- **Simpan Draft**
+
+Jika Anda menyimpan **Invoice Penjualan** sebagai draft maka data akan tersimpan dan Anda kapan saja bisa melakukan perubahan data kembali terhadap data **Invoice Penjualan** tersebut.
+
+- **Post Invoice**
+
+Jika Anda sudah merasa yakin terhadap data **Invoice Penjualan**. Anda bisa melakukan posting data, dengan catatan setiap data yang sudah terposting tidak lagi bisa dilakukan perubahan data.
+Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatus **Company Admin** dengan mengembalikan status data menjadi **Unposting (Draft)**
+
+- **Post & Send Invoice**
+
+Saat anda melakukan **Post & Send Invoice** sistem secara otomatis akan mengirimkan email yang berupa bukti **Invoice Penjualan** kepada entitas **Mitra** tertuju.  
+
+![Docusaurus logo](/img/inv-jual-0.PNG)
+
+### Invoice Pembelian
+
+**Menu Transaksi -> Invoice -> Invoice Pembelian**
+Terdapat 3 status dalam Invocing untuk mengetahui prosess disetiap Invocing Pembelian yaitu :
 
 - **Outstanding :** Status Invoice belum dibayarkan.
 - **Overdue :** Status Invoice melewati masa termin pembayaran.
 - **Paid :** Status Invoice sudah lunas.
 
-![Docusaurus logo](/img/dt-inv-penjualan.PNG)
+![Docusaurus logo](/img/dt-inv-beli.PNG)
 
-# Buat Invoice Penjualan
-Pada halaman datatable **Invoice Penjualan** klik **Buat Invoice Penjualan**
+# Buat Invoice Pembelian
 
-![Docusaurus logo](/img/inv-jual-1.PNG)
+Pada halaman datatable **Invoice Pemebelian** klik **Buat Invoice Pemebelian**
+
+Mohon memperhatikan kolom-kolom yang wajib di isi saat melakukan pembuatan **Invoice Pembelian**. Sistem akan memberikan pesan pada kolom pengisian jika nilai yang diinputkan tidak sesuai.
+
+:::danger PERHATIAN
+- Mitra - Wajib diisi.
+- Tanggal Invoice - Wajib diisi.
+- Nomor Invoice - Wajib diisi (*No Invoice dari Penjual*).
+- Deskripsi Pembelian - Wajib diisi.
+- Termin Pembayaran - Wajib diisi.
+- Quantity Produk - Wajib diisi.
+- Jatuh Tempo - Wajib diisi (*Auto Generate dari Termin*).
+:::    
+
+![Docusaurus logo](/img/inv-beli-1.PNG)
+
+**Harga Barang** pada **Item Produk** secara otomatis diambil dari data **Master Produk**, namun Anda masih dapat melakukan perubahan harga sewaktu diperlukan saat pembuatan **Invoice Pembelian**.
+
+![Docusaurus logo](/img/inv-beli-2.PNG)
+
+Saat membuat **Invoice Pemebelian** Anda juga dapat menambahkan **Diskon atau Uang Muka** ataupun sekaligus menambahkan keduanya **(Diskon & Uang Muka)** untuk satu **Invoice Pembelian** yang akan di prosess.
+
+Nilai saat pengisian **Diskon** dan **Uang Muka** akan secara otomatis terkalkulasi oleh sistem.
+
+![Docusaurus logo](/img/inv-beli-3.PNG)
+
+Setelah Anda memastikan data pada **Invoice Pembelian** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
+
+![Docusaurus logo](/img/btn-inv-confrim.PNG)
+
+- **Simpan Draft**
+
+Jika Anda menyimpan **Invoice Pembelian** sebagai draft maka data akan tersimpan dan Anda kapan saja bisa melakukan perubahan data kembali terhadap data **Invoice Pembelian** tersebut.
+
+- **Post Invoice**
+
+Jika Anda sudah merasa yakin terhadap data **Invoice Pembelian**. Anda bisa melakukan posting data, dengan catatan setiap data yang sudah terposting tidak lagi bisa dilakukan perubahan data.
+Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatus **Company Admin** dengan mengembalikan status data menjadi **Unposting (Draft)**
+
+- **Post & Send Invoice**
+
+Saat anda melakukan **Post & Send Invoice** sistem secara otomatis akan mengirimkan email yang berupa bukti **Invoice Pemeblian** kepada entitas **Mitra** tertuju.  
 
 
+![Docusaurus logo](/img/inv-beli-4.PNG)
 
-![Docusaurus logo](/img/inv-jual-2.PNG)
-
-
-![Docusaurus logo](/img/inv-jual-6.PNG)
-
-
-### Invoice Pembelian
 
 ## Pembayaran
 
