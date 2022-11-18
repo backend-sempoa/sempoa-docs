@@ -121,8 +121,36 @@ Berikut hasil Ekspor file yang sudah terfilterisasi untuk **jurnal umum**
 
 
 ## Invoice
+Invoice adalah sebuah dokumen yang tertulis dan digunakan sebagai suatu bukti pembelian yang berisi informasi seperti daftar barang kiriman yang dilengkapi dengan catatan nama, dan jumlah pembayaran yang harus dibayarkan oleh pembeli.
+
+**Menu Transaksi -> Invoice**
+
+![Docusaurus logo](/img/menu-inv.PNG)
+
 
 ### Invoice Penjualan
+**Menu Transaksi -> Invoice -> Invoice Penjualan**
+
+Terdapat 3 status dalam Invocing untuk mengetahui prosess disetiap Invocing baik Penjualan ataupun Pembelian yaitu :
+
+- **Outstanding :** Status Invoice belum dibayarkan.
+- **Overdue :** Status Invoice melewati masa termin pembayaran.
+- **Paid :** Status Invoice sudah lunas.
+
+![Docusaurus logo](/img/dt-inv-penjualan.PNG)
+
+# Buat Invoice Penjualan
+Pada halaman datatable **Invoice Penjualan** klik **Buat Invoice Penjualan**
+
+![Docusaurus logo](/img/inv-jual-1.PNG)
+
+
+
+![Docusaurus logo](/img/inv-jual-2.PNG)
+
+
+![Docusaurus logo](/img/inv-jual-6.PNG)
+
 
 ### Invoice Pembelian
 
