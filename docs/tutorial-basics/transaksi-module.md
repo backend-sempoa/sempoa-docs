@@ -26,22 +26,22 @@ Saat melakukan pengisian **Ayat Jurnal**, pastikan data yang dinputkan sesuai de
 
 
 ![Docusaurus logo](/img/form-ayat-jurnal.PNG)
-Saat terjadi kesalahan pengisian Ayat Jurnal, sistem akan mengerluarkan pesan kesalahan pada kolom-kolom yang mempunyai nilai yang tidak valid. Mohon perhatikan kolom-kolom yang wajib di isi.
+Saat terjadi kesalahan pengisian Ayat Jurnal, sistem akan mengerluarkan pesan kesalahan pada kolom-kolom yang mempunyai nilai yang tidak valid. Mohon perhatikan kolom-kolom yang wajib diisi.
 
 
 ![Docusaurus logo](/img/form-jurnal-required.PNG)
 
 
 :::danger PERHATIAN
-- Tipe - Wajib di isi.
-- Deskripsi - Wajib di isi.
-- Tanggal - Wajib di isi.
+- Tipe - Wajib diisi.
+- Deskripsi - Wajib diisi.
+- Tanggal - Wajib diisi.
 :::     
 
 
 # Ayat Jurnal tidak balance
 
-Dalam pengisian Ayat Journal, sistem dapat mengidentifikasi data jika terjadi ketidak-seimbangan data dalam Akuntansi (unbalance) sehingga tidak dapat diprosess. Jika hal ini terjadi periksa kembali data yang anda inputkan atau konsultasi dengan **konsultan SEMPOA ERP** untuk bantuan lebih lanjut.
+Dalam pengisian Ayat Journal, sistem dapat mengidentifikasi data jika terjadi ketidak-seimbangan data dalam Akuntansi (unbalance) sehingga tidak dapat diprosess. Jika hal ini terjadi, periksa kembali data yang anda inputkan atau konsultasi dengan **konsultan SEMPOA ERP** untuk bantuan lebih lanjut.
 
 ![Docusaurus logo](/img/non-balance-jurnal.PNG)
 

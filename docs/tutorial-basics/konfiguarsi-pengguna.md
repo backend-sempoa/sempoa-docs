@@ -52,18 +52,18 @@ Perlu diingat hanya pengguna yang berperan sebagai **Company Admin** yang diperb
 - Pada halaman datatable klik tombol **Buat Pengguna**.
 ![Docusaurus logo](/img/dt-pengguna.PNG)
 
-- Isi Form pengguna baru dalam organisasi Anda, dimana terdapat kolom kolom yang wajib di isi.
+- Isi Form pengguna baru dalam organisasi Anda, dimana terdapat kolom kolom yang wajib diisi.
 
 :::danger PERHATIAN
-- Nama - Wajib di isi.
-- Email - Wajib di isi.
-- No Telepon - Wajib di isi.
-- Peran - Wajib di isi.
+- Nama - Wajib diisi.
+- Email - Wajib diisi.
+- No Telepon - Wajib diisi.
+- Peran - Wajib diisi.
 
 :::
 ![Docusaurus logo](/img/form-buat-pengguna.PNG)
 
-- Jika Anda gagal dalam pengisian data pengguna baru maka sistem akan memberi pesan error pada kolom yang salah atau wajib di isi. Namun di sisi lain jika Anda berhasil menambahkan pengguna baru maka status pengguna baru belum aktif.
+- Jika Anda gagal dalam pengisian data pengguna baru maka sistem akan memberi pesan error pada kolom yang salah atau wajib diisi. Namun di sisi lain jika Anda berhasil menambahkan pengguna baru maka status pengguna baru belum aktif.
 
 - Aktifkan status pengguna baru agar dapat diverifikasi oleh sistem. 
 - Klik nama pengguna yang berstatus belum aktif.
@@ -78,7 +78,7 @@ Perlu diingat hanya pengguna yang berperan sebagai **Company Admin** yang diperb
 
 ![Docusaurus logo](/img/confrim-aktif.PNG)
 
-- Setelah terkonfirmasi aktif, maka pengguna yang sudah di daftarkan akan mendapatkan email konfirmasi yang harus segera di konfirmasi. **Email verifikasi berlaku 24 jam**.
+- Setelah terkonfirmasi aktif, maka pengguna yang sudah didaftarkan akan mendapatkan email konfirmasi yang harus segera dikonfirmasi. **Email verifikasi berlaku 24 jam**.
 
 ![Docusaurus logo](/img/confrim-user.PNG)
 
@@ -86,11 +86,11 @@ Perlu diingat hanya pengguna yang berperan sebagai **Company Admin** yang diperb
 
 ![Docusaurus logo](/img/setNewPassword.jpeg)
 
-- Setalah selesai melakukan pengisian password, pengguna baru akan diahlikan masuk kedalam **Dashboard SEMPOA ERP** sesuai peran pengguna yang sudah ditetapkan oleh **Company Admin**.
+- Setalah selesai melakukan pengisian password, pengguna baru akan dialihkan masuk ke dalam **Dashboard SEMPOA ERP** sesuai peran pengguna yang sudah ditetapkan oleh **Company Admin**.
 
 ### Edit Pengguna
 
-Hanya peran **Company Admin** yang dapat melakukan perubahan data terhadap pengguna didalam sebuah organisasi atau perusahaan yang menggunakan aplikasi **SEMPOA ERP**. 
+Hanya peran **Company Admin** yang dapat melakukan perubahan data terhadap pengguna di dalam sebuah organisasi atau perusahaan yang menggunakan aplikasi **SEMPOA ERP**. 
 
 
 - Masuk ke menu **Administrasi -> Pengguna**.

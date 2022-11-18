@@ -10,7 +10,7 @@ Pada module **Data Master** terbagi menjadi 3 sub-module yang dapat Anda sesuaik
   
 ## Master Mitra
 
-Master Mitra adalah sub-moodule dimana Anda dapat menambahkan suatu entitas yang memiliki relasi bisnis dengan organisasi Anda. Relasi tersebut pada **SEMPOA ERP** terbagi menjadi :
+Master Mitra adalah sub-moodule di mana Anda dapat menambahkan suatu entitas yang memiliki relasi bisnis dengan organisasi Anda. Relasi tersebut pada **SEMPOA ERP** terbagi menjadi :
 - Pelanggan (Customers)
 - Pemasok (Suppliers)
 - Keduanya (Both)
@@ -22,19 +22,19 @@ Masuk pada menu **Master Data -> Mitra**
 - Pada halamanan datatable tekan tombol **Tambah Mitra**
 ![Docusaurus logo](/img/dt-mitra.PNG)
 
-- Silahkan isi form mitra dengan memperhatihkan kolom-kolom yang wajib di isi.
+- Silahkan isi form mitra dengan memperhatihkan kolom-kolom yang wajib diisi.
 ![Docusaurus logo](/img/form-add-mitra.PNG)
 
-- Form akan memberikan pesan pada kolom yang wajib di isi.
+- Form akan memberikan pesan pada kolom yang wajib diisi.
 ![Docusaurus logo](/img/mitra-required-form.PNG)
 
 :::danger PERHATIAN
-- Nama Mitra - Wajib di isi.
-- Surel - Wajib di isi.
-- Tipe - Wajib di isi.
-- Alamat - Wajib di isi.
-- Kota - Wajib di isi.
-- Negara - Wajib di isi.
+- Nama Mitra - Wajib diisi.
+- Surel - Wajib diisi.
+- Tipe - Wajib diisi.
+- Alamat - Wajib diisi.
+- Kota - Wajib diisi.
+- Negara - Wajib diisi.
 :::
 
 ### Pemasok
@@ -62,14 +62,13 @@ Jika Anda ingin mengindentifikasikan suatu entitas mitra memiliki **Tipe Mitra**
 
 :::tip Tips
 
-Segera setelah pembuatan Mitra berhasil, pada halaman datatable mitra
-klik icon document untuk membuat **Invoice Penjualan** dan **Invoice Pembelian**.
+Segera setelah pembuatan Mitra berhasil, pada halaman datatable mitra, klik icon document untuk membuat **Invoice Penjualan** dan **Invoice Pembelian**.
 
 :::
 
 ## Master Akun
 
-Merupakan daftar-daftar **Chart of account** yang dapat Anda gunakan dalam membuat laporan - laporan akuntansi dan keuangan. Data Master Akun dapat anda sesuaikan dengan kebutuhan organisasi anda saat pertama kali melakukan onboarding data pada sistem SEMPOA ERP.
+Merupakan daftar-daftar **Chart of account** yang dapat Anda gunakan dalam membuat laporan-laporan akuntansi dan keuangan. Data Master Akun dapat anda sesuaikan dengan kebutuhan organisasi anda saat pertama kali melakukan onboarding data pada sistem SEMPOA ERP.
 
 :::tip Baca Juga :
 
@@ -90,15 +89,15 @@ Pada halaman Akun, klik tombol **"Tambah Akun"**
 
 ![Docusaurus logo](/img/form-akun.PNG)
 
-Jika pembuatan Akun anda gagal maka sistem akan mengeluarkan pesan kesalahan pada kolom. Mohon diperhatikan kolom kolom yang wajib di isi.
+Jika pembuatan Akun anda gagal maka sistem akan mengeluarkan pesan kesalahan pada kolom. Mohon diperhatikan kolom kolom yang wajib diisi.
 
 :::danger PERHATIAN
-- Tipe Akun - Wajib di isi.
-- Level - Wajib di isi.
-- Nama Akun - Wajib di isi.
-- Kode Akun - Wajib di isi.
-- Saldo - Wajib di isi.
-- Bulan Saldo - Wajib di isi.
+- Tipe Akun - Wajib diisi.
+- Level - Wajib diisi.
+- Nama Akun - Wajib diisi.
+- Kode Akun - Wajib diisi.
+- Saldo - Wajib diisi.
+- Bulan Saldo - Wajib diisi.
 :::
 
 ## Master Produk
@@ -112,16 +111,16 @@ Pada halaman datatable Produk, klik tombol **"Tambah Produk"**
 
 ![Docusaurus logo](/img/dt-produk.PNG)
 
-Silahkan mengisi data pada form untuk menambahkan produk dengan memperhatikan kolom-kolom yang wajib di isi.
+Silahkan mengisi data pada form untuk menambahkan produk dengan memperhatikan kolom-kolom yang wajib diisi.
 
 ![Docusaurus logo](/img/form-produk.PNG)
 
 :::danger PERHATIAN
-- Nama Produk - Wajib di isi.
-- Kategori - Wajib di isi.
-- SKU - Wajib di isi.
-- Harga - Wajib di isi.
-- Tipe - Wajib di isi.
+- Nama Produk - Wajib diisi.
+- Kategori - Wajib diisi.
+- SKU - Wajib diisi.
+- Harga - Wajib diisi.
+- Tipe - Wajib diisi.
 :::
 
 ### Kategori Barang
