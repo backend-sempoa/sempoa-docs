@@ -33,7 +33,7 @@ Dalam memfilter **Laporan Jurnal Umum**, Anda dapat memilih daftar **Chart of Ac
 
 Berikut adalah contoh hasil **Laporan Jurnal Umum** berdasarkan **Chart of Account Bank** dengan kode 1-1111 yang dapat terlihat posisi **Saldo Debit, Saldo Kredit dan Saldo Akhirnya** berdasarkan tanggal terfilterisasi.
 
-![Docusaurus logo](/img/jurnal-umum-report.PNG)
+![Docusaurus logo](/img/Jurnal-umum-report.PNG)
 
 ## Laporan Laba Rugi
 

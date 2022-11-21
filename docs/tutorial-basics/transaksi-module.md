@@ -221,7 +221,7 @@ Mohon memperhatikan kolom-kolom yang wajib di isi saat melakukan pembuatan **Inv
 - Jatuh Tempo - Wajib diisi (*Auto Generate dari Termin*).
 :::    
 
-![Docusaurus logo](/img/inv-beli-1.PNG)
+![Docusaurus logo](/img/inv-beli-1.png)
 
 **Harga Barang** pada **Item Produk** secara otomatis diambil dari data **Master Produk**, namun Anda masih dapat melakukan perubahan harga sewaktu diperlukan saat pembuatan **Invoice Pembelian**.
 
