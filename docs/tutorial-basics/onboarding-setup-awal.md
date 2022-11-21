@@ -2,9 +2,7 @@
 sidebar_position: 2
 ---
 
-# Onboarding & Setup Awal
-
-## Setup Awal
+# Setup Awal
 
 Tapahan awal saat Anda menggunakan SEMPOA ERP :
 
