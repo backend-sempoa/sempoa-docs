@@ -225,13 +225,13 @@ Mohon memperhatikan kolom-kolom yang wajib di isi saat melakukan pembuatan **Inv
 
 **Harga Barang** pada **Item Produk** secara otomatis diambil dari data **Master Produk**, namun Anda masih dapat melakukan perubahan harga sewaktu diperlukan saat pembuatan **Invoice Pembelian**.
 
-![Docusaurus logo](/img/inv-beli-2.PNG)
+![Docusaurus logo](/img/inv-beli-2.png)
 
 Saat membuat **Invoice Pemebelian** Anda juga dapat menambahkan **Diskon atau Uang Muka** ataupun sekaligus menambahkan keduanya **(Diskon & Uang Muka)** untuk satu **Invoice Pembelian** yang akan di prosess.
 
 Nilai saat pengisian **Diskon** dan **Uang Muka** akan secara otomatis terkalkulasi oleh sistem.
 
-![Docusaurus logo](/img/inv-beli-3.PNG)
+![Docusaurus logo](/img/inv-beli-3.png)
 
 Setelah Anda memastikan data pada **Invoice Pembelian** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
 
@@ -251,7 +251,7 @@ Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatu
 Saat anda melakukan **Post & Send Invoice** sistem secara otomatis akan mengirimkan email yang berupa bukti **Invoice Pemeblian** kepada entitas **Mitra** tertuju.  
 
 
-![Docusaurus logo](/img/inv-beli-4.PNG)
+![Docusaurus logo](/img/inv-beli-4.png)
 
 
 ## Pembayaran
