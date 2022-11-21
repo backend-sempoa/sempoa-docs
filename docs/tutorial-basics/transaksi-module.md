@@ -256,9 +256,176 @@ Saat anda melakukan **Post & Send Invoice** sistem secara otomatis akan mengirim
 
 ## Pembayaran
 
+Voucher pembayaran atau debit yang berfungsi untuk pembayaran cek ataupun tunai. Sehingga kas perusahaan akan dikreditkan karena adanya aliran kas yang keluar. Tanda terima atau voucher kredit yang mencatat terima uang secara tunai ataupun tanda terima dari pihak bank.
+
+Pada Sempoa ERP, Voucher Pembayaran terbagi menjadi 2 yaitu :
+- Pembayaran Masuk
+- Pembayaran Keluar
+
 ### Pembayaran Masuk
+Pada menu **Pembayaran Masuk** Anda dapat membuat dan memprosess Voucher atas **Invoice Penjualan** yang telah Anda buat sebelumnya. Pada menu ini pula Anda bisa memklaim suatu Voucher **Pembayaran Masuk** telah **terlunaskan** atau masih memiliki **tunggakan**.
+
+**Menu Transaksi -> Pembayaran -> Masuk**
+
+![Docusaurus logo](/img/menu-pembayaran.PNG)
+
+# Buat Pembayaran Masuk (Voucher Masuk)
+
+Pada halaman datatable **Pembayaran Masuk** klik **Buat Pembayaran Masuk**.
+
+
+![Docusaurus logo](/img/dt-pembayaran.PNG)
+
+
+:::danger PERHATIAN
+- Mitra - Wajib diisi.
+- Tanggal - Wajib diisi.
+- Nomor Pembayaran - Wajib diisi (*Auto Generate*).
+- Deskripsi - Wajib diisi.
+- Tipe Akun - Wajib diisi.
+- Akun Pembayaran - Wajib diisi.
+- Nomor Referensi - Wajib diisi (*Berdasarkan Invoice Penjualan*).
+:::
+
+Saat membuat **Pembayaran Masuk**, Anda dapat menginputkan **Nominal Yang Dibayarkan** dari **Jumlah Yang Terutang** berdasarkan **Invoice Penjualan** yang telah di issuekan sebelumnya. Jika **Nominal yang dibayarkan** sesuai dengan **Nominal Yang Terutang** maka Anda dapat memberi tanda **Lunas** pada Voucher **Pembayaran Masuk**.
+
+Akan tetapi jika **Nominal Yang Dibayarkan** tidak sesuai maka Anda tetap dapat memprosess Voucher **Pembayaran Masuk** tersebut dengan status **belum lunas**. 
+
+Sisa yang belum dibayarkan akan tetap muncul pada saat Anda membuat voucher **pembayaran masuk** untuk **Invoice Penjualan** tersebut dengan nominal yang sudah terpotong dari Voucher **Pembayaran Masuk** yang sudah di prosess sebelumnya.  
+
+![Docusaurus logo](/img/buat-pembayaran-masuk.PNG)
+
+Setelah Anda memastikan data pada **Pembayaran Masuk** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
+
+![Docusaurus logo](/img/btn-pembayaran-masuk.PNG)
+
+- **Simpan Draft**
+
+Jika Anda menyimpan **Pembayaran Masuk** sebagai draft maka data akan tersimpan dan Anda kapan saja bisa melakukan perubahan data kembali terhadap data **Pembayaran Masuk** tersebut.
+
+- **Post Pembayaran Masuk**
+
+Jika Anda sudah merasa yakin terhadap data **Pembayaran Masuk**. Anda bisa melakukan posting data, dengan catatan setiap data yang sudah terposting tidak lagi bisa dilakukan perubahan data.
+Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatus **Company Admin** dengan mengembalikan status data menjadi **Unposting (Draft)**
+
+- **Post & Send Pembayaran Masuk**
+
+Saat anda melakukan **Post & Send Pembayaran Masuk** sistem secara otomatis akan mengirimkan email yang berupa bukti **Voucher Pembayaran Masuk** kepada entitas **Mitra** tertuju.  
+
+![Docusaurus logo](/img/dtl-pembayaran-masuk.PNG)
 
 ### Pembayaran Keluar
 
+Pada menu **Pembayaran Keluar** Anda dapat membuat dan memprosess Voucher atas **Invoice Pembelian** yang telah Anda buat sebelumnya. Pada menu ini pula Anda bisa memklaim suatu Voucher **Pembayaran Keluar** telah **terlunaskan** atau masih memiliki **tunggakan**.
+
+**Menu Transaksi -> Pembayaran -> Keluar**
+
+![Docusaurus logo](/img/menu-pembayaran-keluar.PNG)
+
+# Buat Pembayaran Keluar (Voucher Keluar)
+
+Pada halaman datatable **Pembayaran Keluar** klik **Buat Pembayaran Keluar**.
+
+![Docusaurus logo](/img/dt-pembayaran-keluar.PNG)
+
+:::danger PERHATIAN
+- Tipe - Wajib diisi.
+- Mitra - Wajib diisi.
+- Tanggal - Wajib diisi.
+- Nomor Pembayaran - Wajib diisi (*Auto Generate*).
+- Deskripsi - Wajib diisi.
+- Tipe Akun - Wajib diisi.
+- Akun Pembayaran - Wajib diisi.
+- Nomor Referensi - Wajib diisi (*Berdasarkan Invoice Pembelian*).
+:::
+
+Saat membuat **Pembayaran Keluar**, Anda dapat menginputkan **Nominal Yang Dibayarkan** dari **Jumlah Yang Terutang** berdasarkan **Invoice Pembelian** yang telah di issuekan sebelumnya. Jika **Nominal yang dibayarkan** sesuai dengan **Nominal Yang Terutang** maka Anda dapat memberi tanda **Lunas** pada Voucher **Pembayaran Keluar**.
+
+Akan tetapi jika **Nominal Yang Dibayarkan** tidak sesuai maka Anda tetap dapat memprosess Voucher **Pembayaran Keluar** tersebut dengan status **belum lunas**. 
+
+Sisa yang belum dibayarkan akan tetap muncul pada saat Anda membuat voucher **Pembayaran Keluar** untuk **Invoice Pembelian** tersebut dengan nominal yang sudah terpotong dari Voucher **Pembayaran Keluar** yang sudah di prosess sebelumnya.  
+
+
+![Docusaurus logo](/img/buat-pembayaran-keluar.PNG)
+
+Setelah Anda memastikan data pada **Pembayaran Keluar** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
+
+![Docusaurus logo](/img/btn-pembayaran-keluar.PNG)
+
+- **Simpan Draft**
+
+Jika Anda menyimpan **Pembayaran Keluar** sebagai draft maka data akan tersimpan dan Anda kapan saja bisa melakukan perubahan data kembali terhadap data **Pembayaran Keluar** tersebut.
+
+- **Post Pembayaran Keluar**
+
+Jika Anda sudah merasa yakin terhadap data **Pembayaran Keluar**. Anda bisa melakukan posting data, dengan catatan setiap data yang sudah terposting tidak lagi bisa dilakukan perubahan data.
+Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatus **Company Admin** dengan mengembalikan status data menjadi **Unposting (Draft)**.
+
+- **Post & Send Pembayaran Keluar**
+
+Saat anda melakukan **Post & Send Pembayaran Keluar** sistem secara otomatis akan mengirimkan email yang berupa bukti **Voucher Pembayaran Keluar** kepada entitas **Mitra** tertuju.  
+
+![Docusaurus logo](/img/dtl-pembayaran-keluar.PNG)
+
 ## Biaya
+
+**Biaya** adalah sebuah kegiatan **pencatatan, pengklasifikasian, pembuatan, hingga pelaporan** semua transaksi atau **biaya** yang terjadi dari proses produksi hingga distribusi dalam penjualan produk atau jasa.
+
+**Menu Transaksi -> Biaya**
+
+![Docusaurus logo](/img/menu-biaya.PNG)
+
+
+# Buat Biaya
+
+Pada halaman datatable **Biaya** klik **Buat Biaya**.
+
+![Docusaurus logo](/img/dt-biaya.PNG)
+
+
+Pada saat Anda membuat **Expense (Biaya)**, pada sistem **SEMPOA ERP** terdapat 2 jenis status terhadap **Biaya** yang akan Anda proses yaitu :
+
+- **Lunas**
+- **Belum Bayar**
+
+![Docusaurus logo](/img/buat-biaya.PNG)
+
+Dimana Anda dapat melakukan penyesuaian terhadap **Chart Of Account** yang akan digunakan dalam pembuatan **Expense (Biaya)** tersebut sesuai dengan kebutuhan.
+
+Dalam melakukan pembuatan **Expense (Biaya)** harap Anda memeperhatikan kolom-kolom yang wajib di isi. Sistem akan menampilkan pesan error ketika nilai yang diinputkan tidak valid.
+
+:::danger PERHATIAN
+- Tanggal Biaya - Wajib diisi.
+- Nomor Referensi - Wajib diisi.
+- Deskripsi - Wajib diisi.
+- Status Pembayaran - Wajib pilih.
+- Akun Biaya - Wajib diisi.
+- Akun Pembayaran - Wajib diisi.
+- Nominal - Wajib diisi.
+:::
+
+Setelah Anda memastikan data pada **Biaya** Anda sudah sesuai dengan transaksi, maka Anda dapat terlebih dulu melakukan beberapa aksi seperti :
+
+![Docusaurus logo](/img/btn-biaya.PNG)
+
+- **Simpan Draft**
+
+Jika Anda menyimpan **Biaya** sebagai draft maka data akan tersimpan dan Anda kapan saja bisa melakukan perubahan data kembali terhadap data **Biaya** tersebut.
+
+- **Post Biaya**
+
+Jika Anda sudah merasa yakin terhadap data **Biaya**. Anda bisa melakukan posting data, dengan catatan setiap data yang sudah terposting tidak lagi bisa dilakukan perubahan data.
+Perubahan data saat terposting hanya dapat dilakukan oleh pengguna yang berstatus **Company Admin** dengan mengembalikan status data menjadi **Unposting (Draft)**.
+
+- **Post & Send Biaya**
+
+Saat anda melakukan **Post & Send Biaya** sistem secara otomatis akan mengirimkan email yang berupa bukti **Biaya** kepada entitas **Mitra** tertuju.  
+
+![Docusaurus logo](/img/dtl-biaya.PNG)
+
+
+
+
+
+
 
