@@ -25,7 +25,7 @@ Pada sistem **SEMPOA ERP** anda dapat melihat data laporan keuangan dan akuntans
 - Bulan lalu
 - Tahun ini
 - Tahun lalu
-- Tanngal Lainnya
+- Tanggal Lainnya
 
 Dalam memfilter **Laporan Jurnal Umum**, Anda dapat memilih daftar **Chart of Account** yang ingin Anda tampilkan data transaksinya berdasarkan tanggal yang sudah Anda tentukan.
 
@@ -47,7 +47,7 @@ Berikut adalah contoh hasil **Laporan Jurnal Umum** berdasarkan **Chart of Accou
 - Bulan lalu
 - Tahun ini
 - Tahun lalu
-- Tanngal Lainnya
+- Tanggal Lainnya
 
 ![Docusaurus logo](/img/laporan-laba-rugi.PNG)
 
@@ -91,7 +91,7 @@ Berikut hasil filterisasi untuk **Laporan Neraca Percobaan** yang dapat terlihat
 - Bulan lalu
 - Tahun ini
 - Tahun lalu
-- Tanngal Lainnya
+- Tanggal Lainnya
 
 ![Docusaurus logo](/img/hutang-piutang-1.PNG)
 
