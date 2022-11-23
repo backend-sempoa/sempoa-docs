@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Autentifikasi Pengguna
+# Autentikasi Pengguna
 
 ## Login
 
 
-Setelah Anda mendapatkan **Autentifikasi** berupa akun dan password, Anda dapat masuk pada halaman login
+Setelah Anda mendapatkan **Autentikasi** berupa akun dan password, Anda dapat masuk pada halaman login
 - `https://erp.sempoa.id/login` 
 
 Anda akan masuk pada halaman login  :
@@ -31,6 +31,7 @@ Jika Anda gagal login maka sistem akan menampilkan pesan gagal yang dapat diiden
    Mohon pastikan akun Anda telah diaktifkan oleh Administrator atau oleh Company Admin di perusahaan Anda agar terhindar dari gagal login akibat akun masih berstatus non-aktif.
 
    ![Akun belum aktif](/img/nonactive.PNG)
+   
 ## Reset Password
 Saat Anda mengalami kendala berupa Password yang salah Anda dapat melakukan perubahan Password secara mandiri dengan fitur reset password. Berikut tahapan untuk merubah password.
 
