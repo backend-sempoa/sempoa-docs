@@ -33,6 +33,7 @@ export default function Home() {
       title={`${siteConfig.title} Homepage`}
       description="Di Sempoa, kami percaya bahwa semua proses akuntansi perusahaan dapat dilakukan dengan mudah dan mendetil, sehingga memberikan gambaran posisi keuangan yang akurat dan terpercaya!">
       <HomepageHeader />
+  
       <main>
         <HomepageFeatures />
       </main>
