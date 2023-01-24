@@ -69,12 +69,12 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=navbar',
-            label: 'Coba Sempoa',
-            position: 'right',
-          },
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=navbar',
+          //   label: 'Coba Sempoa',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -87,6 +87,21 @@ const config = {
                 label: 'Tutorial',
                 to: '/docs/intro',
               },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Hubungi Kami',
+                to: 'mailto:info@sempoa.id',
+              },
+      
+              {
+                label: 'Coba Sempoa',
+                href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=footer',
+              },
+           
             ],
           },
           {
@@ -106,23 +121,7 @@ const config = {
               },
             ],
           },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Coba Sempoa',
-                href: 'https://sempoa.id/?utm_source=sempoa-docs&utm_medium=link&utm_campaign=sempoa-docs&utm_content=footer',
-              },
-              {
-                label: 'Hubungi Kami',
-                to: 'mailto:info@sempoa.id',
-              },
-            ],
-          },
+      
         ],
         copyright: `© ${new Date().getFullYear()} All Rights Reserved. PT Sempoa Prima Teknologi. Built with Docusaurus.`,
       },
