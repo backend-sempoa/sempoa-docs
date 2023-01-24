@@ -30,7 +30,7 @@ Berikut template **Chart of Account** yang sudah disediakan untuk dapat Anda adj
 
 ![Template migrasi data akun](/img/excel-template.PNG)
 
-Pada Template Chart Of Account (COA) s, perlu diperhatikan kolom-kolom yang tertera.
+Pada Template Chart Of Account (COA) , perlu diperhatikan kolom-kolom yang tertera.
 ## 1. Account Number
 Kolom ini merupakan penomoran untuk Chart Of Account yang dapat disesuaikan sesuai kebutuhan.
 ## 2. Account Name
