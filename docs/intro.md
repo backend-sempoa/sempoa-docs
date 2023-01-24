@@ -48,7 +48,33 @@ Terhubung dengan modul Inventori Anda dapat mempersiapkan jumlah persediaan dibe
 
 ## Registrasi
 Untuk melakukan registrasi pada aplikasi [SEMPOA ERP](https://demo.sempoa.id)
-  - Anda dapat menguhubungi konsultan kami agar kami dapat memastikan dan menganalisa kebutuhan perusahaan     atau organisasi Anda dalam pengimplementasian sistem **SEMPOA ERP**.
+  - Anda dapat menguhubungi konsultan kami agar kami dapat memastikan dan menganalisa kebutuhan perusahaan  atau organisasi Anda dalam pengimplementasian sistem **SEMPOA ERP**.
   
   - Email : info@sempoa.id
   - Phone : 081234567890
+
+Atau Anda dapat melakukan Registrasi mandiri dengan cara :
+
+- Masuk ke halaman landing page [SEMPOA ERP](https://sempoa.id)
+
+![Menu migrasi data](/img/landing.PNG)
+
+- Klik tombol **Coba Gratis 14 Hari**. 
+
+- Anda akan masuk ke halaman **Form Registrasi**.
+
+![Menu migrasi data](/img/registrasi.PNG)
+
+- Isi keseluruhan kolom pada form registrasi dengan valid agar tidak terjadi kesalahan data.
+
+- Setalah berhasil melakukan Registrasi Anda akan mendapatkan beberapa Email yang akan dikirimkan oleh  sistem sebagai penanda aktivasi akun Anda di sistem Sempoa ERP.
+
+![Menu migrasi data](/img/emailverif.PNG) ![Menu migrasi data](/img/statusactive.PNG)
+
+Segera setelah Anda mendaftar dan melakukan konfirmasi Akun Anda akan dapat langsung login dan masuk kedalam Dashboard sistem Sempoa ERP.
+
+![Menu migrasi data](/img/firstlogin.PNG)
+
+:::danger PENTING
+**Pendaftaran Gratis** Akun Anda hanya akan berlaku aktif selama 14 hari dari sejak anda teregistrasi pada sistem. Jika Anda ingin memperpanjang masa Trial Anda silahkan menghubungi Konsultan kami pada kontak yang tertera.
+:::
