@@ -41,9 +41,9 @@ Pada SEMPOA ERP Chart of Account di klasifikasikan menjadi beberapa jenis tipe C
 * Kewajiban
 * Modal
 * Pendapatan
-* HPP (Harga Pokok Penjualan)
+* HPP
 * Biaya
-* Pdpt Lain (Pendapatan Lain)
+* Pdpt Lain
 * Biaya Lain
 * Kas
 * Bank
@@ -53,6 +53,14 @@ Pada SEMPOA ERP Chart of Account di klasifikasikan menjadi beberapa jenis tipe C
 * Hutang Biaya
 * Hutang
 * Hutang Pajak
+
+:::info
+
+HPP, akronim dari Harga Pokok Penjualan.
+
+Pdpt Lain, akronim dari Pendapatan Lain.
+
+:::
 
 ## 4. Level
 Kolom Level adalah penomoran untuk menentukan posisi COA sebagai Parent COA (Akun Atasan), yang memungkinkan setiap COA dapat memiliki lebih dari satu jenis COA untuk tipe yang sama.
