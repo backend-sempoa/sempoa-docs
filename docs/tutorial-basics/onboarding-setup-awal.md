@@ -28,13 +28,27 @@ Dengan cara pilih **Tipe Data -> klik "Contoh Data Akun"**.
 Berikut template **Chart of Account** yang sudah disediakan untuk dapat Anda adjust kembali sesuai kebutuhan organisasi Anda.
 ## Template Chart Of Account
 
-![Template migrasi data akun](/img/excel-template.PNG)
+![Template migrasi data akun](/img/excel-template-2.PNG)
 
 Pada Template Chart Of Account (COA) , perlu diperhatikan kolom-kolom yang tertera.
 ## 1. Account Number
-Kolom ini merupakan penomoran untuk Chart Of Account yang dapat disesuaikan sesuai kebutuhan.
+Kolom **Account Number** merupakan penomoran untuk Chart Of Account yang dapat disesuaikan sesuai kebutuhan.
+
+:::info
+
+Kolom ini **wajib** diisi.
+
+:::
+
 ## 2. Account Name
-Kolom ini merupakan penamaan untuk Chart Of Account yang dapat disesuaikan sesuai kebutuhan.
+Kolom **Account Name** merupakan penamaan untuk Chart Of Account yang dapat disesuaikan sesuai kebutuhan.
+
+:::info
+
+Kolom ini **wajib** diisi.
+
+:::
+
 ## 3. Type
 Pada SEMPOA ERP Chart of Account di klasifikasikan menjadi beberapa jenis tipe COA Seperti :
 * Aset
@@ -60,16 +74,34 @@ HPP, akronim dari Harga Pokok Penjualan.
 
 Pdpt Lain, akronim dari Pendapatan Lain.
 
+Kolom ini **wajib** diisi.
+
 :::
 
 ## 4. Level
-Kolom Level adalah penomoran untuk menentukan posisi COA sebagai Parent COA (Akun Atasan), yang memungkinkan setiap COA dapat memiliki lebih dari satu jenis COA untuk tipe yang sama.
+Kolom **Level** adalah penomoran untuk menentukan posisi COA sebagai Parent COA (Akun Atasan), yang memungkinkan setiap COA dapat memiliki lebih dari satu jenis COA untuk tipe yang sama.
+
+:::info
+
+Kolom ini **wajib** diisi.
+
+:::
 
 ## 5. Parent Account
 Kolom yang mengindentifikasikan suatu nomor Chart Of Account memiliki Akun Atasan berdasarkan type Akun yang sama. Contoh : pada gambar template COA di atas Account Name : Aktiva Lancar (10100) memiliki Akun atasan Aktiva (10000).
 
-## 5. Balance
-Kolom balance berfungsi untuk menambahkan saldo pada COA tertentu sehingga COA yang langsung teridentifikasi terdebit.
+## 6. Balance
+Kolom **Balance** berfungsi untuk menambahkan saldo pada COA tertentu sehingga COA yang langsung teridentifikasi terdebit.
+
+## 7. Period Date
+
+Kolom **Periode Date** berfungsi untuk menyatakan periode penanda *beginning balance* ingin ditentukan. 
+
+:::info
+
+Kolom ini **wajib** diisi hanya baris pertama.
+
+:::
 
 ## Setup Konfigurasi Chart Of Account (COA)
 Setelah berhasil melakukan migrasi data, langkah selajuntnya Anda dapat melakukan konfigurasi untuk **Chart of Account** seacara default. Sebagai contoh untuk setiap transaksi penerimaan, Anda dapat membuat setiap transaksi penerimaan ditampung dalam **Chart of Account - Account Receiveble** .
