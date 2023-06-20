@@ -8,7 +8,90 @@ sidebar_position: 2
 
 Berikut adalah API untuk mendapatkan atau menyimpan data transaksi Jurnal Umum.
 
-## Daftar API
+## Base URL
+
+> `https://sempoa.id/api/integration`
+
+## GET `/jurnal`
+
+| Parameter | Wajib | Tipe Data | Catatan                                                   |
+| --------- | :---: | --------- | --------------------------------------------------------- |
+| limit     |  ❌   | Integer   | Membatasi jumlah data keluaran. <br /> Default: 10        |
+| page      |  ❌   | Integer   | Menampilkan data pada halaman terpilih. <br /> Default: 1 |
+
+### Penggunaan
+
+```php
+// tanpa parameter
+Http::withToken('token')
+  ->get(__BASE_URL___ . '/jurnal');
+
+// dengan parameter
+Http::withToken('token')
+  ->get(__BASE_URL___ . '/jurnal', [
+    'limit' => 50,
+    'page' => 2
+  ]);
+```
+
+### Contoh sukses
+
+```json
+{
+    "status": 200,
+    "message": "Success",
+    "data": [
+        {
+            "tanggal": "30-12-2023",
+            "referensi": "PB/2023/VI/0009",
+            "deskripsi": "Pembelian ruko",
+            "nominal": 90000,
+            "status": "Post",
+            "transaksi": [
+                {
+                    "akun": "Asset",
+                    "kredit": 0,
+                    "debit": 15000
+                },
+                {
+                    "akun": "Inventory",
+                    "kredit": 0,
+                    "debit": 75000
+                },
+                {
+                    "akun": "BANK BCA",
+                    "kredit": 90000,
+                    "debit": 0
+                }
+            ]
+        },
+        {
+            "tanggal": "30-12-2023",
+            "referensi": "PB/2023/VI/0008",
+            "deskripsi": "Pembelian ruko",
+            "nominal": 90000,
+            "status": "Post",
+            "transaksi": [
+                {
+                    "akun": "Asset",
+                    "kredit": 0,
+                    "debit": 15000
+                },
+                {
+                    "akun": "Inventory",
+                    "kredit": 0,
+                    "debit": 75000
+                },
+                {
+                    "akun": "BANK BCA",
+                    "kredit": 90000,
+                    "debit": 0
+                }
+            ]
+        }
+    ]
+}
+```
 
 ## POST `/jurnal`
 
@@ -19,7 +102,7 @@ Berikut adalah API untuk mendapatkan atau menyimpan data transaksi Jurnal Umum.
 | tanggal   |  ✅   | String    | Tanggal jurnal <br /> Format : YYYY-MM-DD |
 | transaksi |  ✅   | Array     | akun, debit, kredit                       |
 
-#### Contoh pada Laravel
+### Penggunaan
 
 ```php
 $items = [
@@ -53,48 +136,33 @@ Http::withToken('token')
 
 ```json
 {
-  "status": 200,
-  "message": "Success",
-  "data": {
-    "transaction": {
-      "id": "9963cfa0-4ee0-4c4b-8de9-cc4855efa538",
-      "transaction_date": "2023-06-07",
-      "model_id": "other",
-      "model_type": null,
-      "transaction_type": false,
-      "transaction_status": 2,
-      "reference_number": "003",
-      "description": "Deskripsinya",
-      "company_id": "995dab46-9947-4a7a-940a-91e757695ef4",
-      "created_by": "System",
-      "updated_by": "System",
-      "void_by": null,
-      "deleted_by": null,
-      "created_at": "2023-06-12T03:14:02.000000Z",
-      "updated_at": "2023-06-12T03:14:02.000000Z",
-      "void_at": null,
-      "deleted_at": null,
-      "checking_balance_credit": 50000,
-      "checking_balance_debit": 50000,
-      "transaction_date_human": "Jun 7, 2023",
-      "transaction_details": [
-        {
-          "id": "9963cfa0-5032-4222-aa0a-0e707a8d1f94",
-          "account_id": "9963cf70-bbf5-41eb-ab85-de4090bf1d17",
-          "transaction_id": "9963cfa0-4ee0-4c4b-8de9-cc4855efa538",
-          "debit_amount": 50000,
-          "credit_amount": 0
-        },
-        {
-          "id": "9963cfa0-514a-4bfe-9f1e-d0fdb8272103",
-          "account_id": "9963cf70-cca2-4ba3-b87c-a2afde2fe084",
-          "transaction_id": "9963cfa0-4ee0-4c4b-8de9-cc4855efa538",
-          "debit_amount": 0,
-          "credit_amount": 50000
-        }
-      ]
+    "status": 200,
+    "message": "Success",
+    "data": {
+        "id": "997474e9-17de-4e93-9ec1-c960507c3556",
+        "tanggal": "30-12-2023",
+        "referensi": "PB/2023/VI/0012",
+        "deskripsi": "Pembelian ruko",
+        "nominal": 90000,
+        "status": "Post",
+        "transaksi": [
+            {
+                "akun": "Asset",
+                "kredit": 0,
+                "debit": 15000
+            },
+            {
+                "akun": "Inventory",
+                "kredit": 0,
+                "debit": 75000
+            },
+            {
+                "akun": "BANK BCA",
+                "kredit": 90000,
+                "debit": 0
+            }
+        ]
     }
-  }
 }
 ```
 
@@ -102,7 +170,7 @@ Http::withToken('token')
 
 ```json
 {
-    "status": 400,
-    "message": "Nomor referensi sudah ada"
+  "status": 400,
+  "message": "Nomor referensi sudah ada"
 }
 ```
