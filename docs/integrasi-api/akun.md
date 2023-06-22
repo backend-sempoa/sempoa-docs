@@ -103,6 +103,6 @@ Http::withToken('token')
 ```json
 {
     "status": 404,
-    "message": "Akun tidak ditemukan."
+    "message": "Akun :kode tidak ditemukan."
 }
 ```
